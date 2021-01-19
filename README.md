@@ -1,6 +1,6 @@
 # Portfolio Website -- Version One
 
-Hi there. This is my first personal portfolio website, built using HTML, SCSS, javascript and PHP.
+Hi there. This is my first personal portfolio website, built using HTML, SCSS, JavaScript and PHP.
 Visit my portfolio here: https://snowiewongdev.com/ 
 
 You can also try out the 404 page to see some lovely cats via Giphy API. :heart_eyes_cat:
