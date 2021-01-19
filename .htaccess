@@ -1,0 +1,5 @@
+ErrorDocument 404 /404.html
+
+#if index.html found, redirect to root "/"
+RewriteEngine On
+RewriteRule ^index\.php$ / [R=301,L]

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Page Not Found - SW development</title>
+  <link rel="icon" type="image/png" href="./media/logo.png">
+  <link rel="stylesheet" href="./style/main.css">
+</head>
+
+<body>
+  <div class="nav-bar">
+    <div class="logo">
+      <a data-menuanchor="home" href="/">
+        <img src="./media/logo.svg" alt="SWdevelopment">
+      </a>
+    </div>
+    <div id="menu" class="nav-list">
+      <a data-menuanchor="about" href="/#about"> About </a>
+      <a data-menuanchor="portfolio" href="/#portfolio"> Portfolio </a>
+      <a data-menuanchor="services" href="/#services"> Services </a>
+      <a data-menuanchor="contact" href="/#contact"> Contact </a>
+    </div>
+    <div class="burger">
+      <svg onclick="showMenu()" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><g><path d="M2 6a1 1 0 0 1 1-1h18a1 1 0 1 1 0 2H3a1 1 0 0 1-1-1z"/><path d="M2 12.032a1 1 0 0 1 1-1h18a1 1 0 1 1 0 2H3a1 1 0 0 1-1-1z"/><path d="M3 17.064a1 1 0 1 0 0 2h18a1 1 0 0 0 0-2H3z"/></g></svg>
+    </div>
+  </div>
+
+  <div class="mobile-menu">
+      <svg onclick="hideMenu()" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 15 15"><g><path d="M12.854 2.854a.5.5 0 0 0-.708-.708L7.5 6.793L2.854 2.146a.5.5 0 1 0-.708.708L6.793 7.5l-4.647 4.646a.5.5 0 0 0 .708.708L7.5 8.207l4.646 4.647a.5.5 0 0 0 .708-.708L8.207 7.5l4.647-4.646z"/></g></svg>
+      <a onclick="hideMenu()" href="/#home"> Home </a>
+      <a onclick="hideMenu()" href="/#about"> About </a>
+      <a onclick="hideMenu()" href="/#portfolio"> Portfolio </a>
+      <a onclick="hideMenu()" href="/#services"> Services </a>
+      <a onclick="hideMenu()" href="/#contact"> Contact </a>
+  </div>
+
+  <div class="navbar-space"></div>
+
+  <div class="error">
+    <h3> Page Not Found </h3>
+    <br>
+    <p> Oops! The page you are looking for is not found. Hope this random cat gif from Giphy could make up for it :P </p>
+    <br>
+
+    <div class="gifContain">
+      <img id="catGif"/>
+    </div>
+    
+    
+
+    <br>
+    <div class="err-choice">
+      <a class="button2" onclick="newGif()"> No, I Need More </a>
+      <a class="button" href="./"> Back To Home </a>
+    </div>
+    <p> Disclaimer: Copyright of gifs belongs to Giphy & their original creator. This random function is built using Giphy API. </p>
+  </div>
+
+  <script>
+    
+    //toggle mobile menu
+    var mobileMenu = document.querySelector('.mobile-menu');
+    const showMenu = () => { mobileMenu.style.width = "100%"; }
+    const hideMenu = () => { mobileMenu.style.width = "0%"; }
+
+    //Giphy API function
+    var giphyRandomURL = "https://api.giphy.com/v1/gifs/random";
+    var apiKey = "?api_key=YourGiphyAPIKey";
+    var tag = "funny+cat";
+    var fullURL = giphyRandomURL + apiKey + "&tag=" + tag + "&rating=g";
+
+    const newGif = () => {
+
+      var request = new XMLHttpRequest();
+      var data;
+      var gif = document.getElementById('catGif');
+
+      request.open('GET', fullURL, true);
+      request.onload = () => {
+        data = JSON.parse(request.responseText); //convert json to object
+        gif.src = data.data.image_url;
+      }
+      request.send();
+
+    }
+
+    newGif();
+
+  </script>
+</body>
+</html>
