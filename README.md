@@ -8,9 +8,13 @@ You can also try out the 404 page to see some lovely cats via Giphy API. :heart_
 Thanks for checking this out. :partying_face:
 
 ## JS Libraries used
+
 PagePilingJS: https://github.com/alvarotrigo/pagePiling.js
+
 AOS: https://github.com/michalsnik/aos
+
 TypedJS: https://github.com/mattboldt/typed.js
+
 Lottie Player: https://github.com/LottieFiles/lottie-player
 
 
