@@ -5,6 +5,6 @@ RewriteEngine On
 RewriteRule ^index\.php$ / [R=301,L]
 
 #force http -> https
-RewriteCond %{HTTPS} !on [OR]
-RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=302,L,NE]
-Header always set Content-Security-Policy "upgrade-insecure-requests;"
+#RewriteCond %{HTTPS} !on [OR]
+#RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=302,L,NE]
+#Header always set Content-Security-Policy "upgrade-insecure-requests;"
