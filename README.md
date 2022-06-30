@@ -2,7 +2,7 @@
 
 Hi there. This is my first personal portfolio website, built using HTML, SCSS, JavaScript and PHP.
 
-Visit my portfolio here: https://snowiewongdev.com/ 
+Visit my portfolio here: https://snowiewongdev-portfolio-v1.netlify.app/
 
 You can also try out the 404 page to see some lovely cats via Giphy API. :heart_eyes_cat:
 
