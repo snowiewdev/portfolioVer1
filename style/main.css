@@ -6,16 +6,23 @@
 }
 
 body {
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   color: #333333;
 }
 
-body, html {
+body,
+html {
   height: 100%;
 }
 
-h1, h2, h3, h4, h5, h6, a {
-  font-family: 'Playfair Display', serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+  font-family: "Playfair Display", serif;
 }
 
 .button {
@@ -25,8 +32,8 @@ h1, h2, h3, h4, h5, h6, a {
   padding: 5px;
   width: 150px;
   text-align: center;
-  border: 2px solid #3E698C;
-  background: #3E698C;
+  border: 2px solid #3e698c;
+  background: #3e698c;
   margin: 10px 0px;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
@@ -34,7 +41,7 @@ h1, h2, h3, h4, h5, h6, a {
 
 .button:hover {
   background: transparent;
-  color: #3E698C;
+  color: #3e698c;
 }
 
 .button2 {
@@ -44,16 +51,16 @@ h1, h2, h3, h4, h5, h6, a {
   padding: 5px;
   width: 150px;
   text-align: center;
-  border: 2px solid #3E698C;
+  border: 2px solid #3e698c;
   background: transparent;
-  color: #3E698C;
+  color: #3e698c;
   margin: 10px 0px;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
 
 .button2:hover {
-  background: #3E698C;
+  background: #3e698c;
   color: white;
 }
 
@@ -62,12 +69,12 @@ h1, h2, h3, h4, h5, h6, a {
 }
 
 .bg-grey {
-  background-color: #E6E6E6;
+  background-color: #e6e6e6;
 }
 
 .highlight {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), color-stop(50%, #CBF3F0));
-  background: linear-gradient(to bottom, transparent 50%, #CBF3F0 50%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), color-stop(50%, #cbf3f0));
+  background: linear-gradient(to bottom, transparent 50%, #cbf3f0 50%);
 }
 
 @media screen and (max-width: 767px) {
@@ -153,13 +160,13 @@ h1, h2, h3, h4, h5, h6, a {
 }
 
 .nav-list a:hover {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), color-stop(50%, #CBF3F0));
-  background: linear-gradient(to bottom, transparent 50%, #CBF3F0 50%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), color-stop(50%, #cbf3f0));
+  background: linear-gradient(to bottom, transparent 50%, #cbf3f0 50%);
 }
 
 .nav-list .active {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), color-stop(50%, #CBF3F0));
-  background: linear-gradient(to bottom, transparent 50%, #CBF3F0 50%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), color-stop(50%, #cbf3f0));
+  background: linear-gradient(to bottom, transparent 50%, #cbf3f0 50%);
 }
 
 .burger {
@@ -250,12 +257,12 @@ h1, h2, h3, h4, h5, h6, a {
   }
   .mobile-menu a:hover {
     cursor: pointer;
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), color-stop(50%, #CBF3F0));
-    background: linear-gradient(to bottom, transparent 50%, #CBF3F0 50%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), color-stop(50%, #cbf3f0));
+    background: linear-gradient(to bottom, transparent 50%, #cbf3f0 50%);
   }
   .mobile-menu .active {
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), color-stop(50%, #CBF3F0));
-    background: linear-gradient(to bottom, transparent 50%, #CBF3F0 50%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), color-stop(50%, #cbf3f0));
+    background: linear-gradient(to bottom, transparent 50%, #cbf3f0 50%);
   }
 }
 
@@ -272,14 +279,14 @@ h1, h2, h3, h4, h5, h6, a {
 
 .navbar-space {
   height: 52px;
-  background: -webkit-gradient(linear, left top, right top, color-stop(50%, #E6E6E6), color-stop(50%, white));
-  background: linear-gradient(to right, #E6E6E6 50%, white 50%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(50%, #e6e6e6), color-stop(50%, white));
+  background: linear-gradient(to right, #e6e6e6 50%, white 50%);
 }
 
 .navbar-space2 {
   height: 52px;
-  background: -webkit-gradient(linear, right top, left top, color-stop(50%, #E6E6E6), color-stop(50%, white));
-  background: linear-gradient(to left, #E6E6E6 50%, white 50%);
+  background: -webkit-gradient(linear, right top, left top, color-stop(50%, #e6e6e6), color-stop(50%, white));
+  background: linear-gradient(to left, #e6e6e6 50%, white 50%);
 }
 
 .home-middle {
@@ -325,7 +332,7 @@ h1, h2, h3, h4, h5, h6, a {
 }
 
 .home-text::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 3rem;
   bottom: -80px;
@@ -339,8 +346,8 @@ h1, h2, h3, h4, h5, h6, a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background: -webkit-gradient(linear, right top, left top, color-stop(50%, #E6E6E6), color-stop(50%, white));
-  background: linear-gradient(to left, #E6E6E6 50%, white 50%);
+  background: -webkit-gradient(linear, right top, left top, color-stop(50%, #e6e6e6), color-stop(50%, white));
+  background: linear-gradient(to left, #e6e6e6 50%, white 50%);
 }
 
 .home-bottom div {
@@ -438,7 +445,7 @@ h1, h2, h3, h4, h5, h6, a {
 }
 
 .text-box {
-  background: #E6E6E6;
+  background: #e6e6e6;
   position: relative;
   padding: 1.5rem 1rem;
   margin-bottom: 2rem;
@@ -506,7 +513,8 @@ h1, h2, h3, h4, h5, h6, a {
 }
 
 @media screen and (min-height: 1366px) {
-  .text-box, .text-box2 {
+  .text-box,
+  .text-box2 {
     min-height: 25vh;
     margin-top: 2rem;
     margin-bottom: 3rem;
@@ -521,8 +529,8 @@ h1, h2, h3, h4, h5, h6, a {
   width: 150px;
   height: 150px;
   margin-bottom: 2rem;
-  -webkit-box-shadow: -10px -10px #CBF3F0;
-          box-shadow: -10px -10px #CBF3F0;
+  -webkit-box-shadow: -10px -10px #cbf3f0;
+          box-shadow: -10px -10px #cbf3f0;
   background: url("../media/me.jpg");
   background-size: cover;
   -webkit-transition: 0.4s ease;
@@ -583,7 +591,7 @@ h1, h2, h3, h4, h5, h6, a {
   border-radius: 4px;
   border: 2px solid grey;
   color: #333333;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
@@ -604,7 +612,8 @@ h1, h2, h3, h4, h5, h6, a {
   margin: 0.5rem 0 1rem;
 }
 
-.stories p:nth-child(1), .stories p:nth-child(3) {
+.stories p:nth-child(1),
+.stories p:nth-child(3) {
   display: none;
 }
 
@@ -614,7 +623,7 @@ h1, h2, h3, h4, h5, h6, a {
 
 .about2 {
   padding-top: 4rem;
-  background: #E6E6E6;
+  background: #e6e6e6;
   overflow: hidden;
 }
 
@@ -651,7 +660,10 @@ h1, h2, h3, h4, h5, h6, a {
 }
 
 @-webkit-keyframes bounce {
-  0%, 20%, 60%, 100% {
+  0%,
+  20%,
+  60%,
+  100% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
   }
@@ -666,7 +678,10 @@ h1, h2, h3, h4, h5, h6, a {
 }
 
 @keyframes bounce {
-  0%, 20%, 60%, 100% {
+  0%,
+  20%,
+  60%,
+  100% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
   }
@@ -791,7 +806,7 @@ h1, h2, h3, h4, h5, h6, a {
 }
 
 .portfolio-box .button:hover svg {
-  fill: #3E698C;
+  fill: #3e698c;
 }
 
 .portfolio-box:hover {
@@ -831,13 +846,14 @@ h1, h2, h3, h4, h5, h6, a {
   margin: 0.5rem 0;
 }
 
-.portfolio-box:hover .overlay, .overlay.stay {
+.portfolio-box:hover .overlay,
+.overlay.stay {
   height: 100%;
   opacity: 0.95;
 }
 
 .portfolio1 {
-  background: #E6E6E6;
+  background: #e6e6e6;
   overflow: hidden;
 }
 
@@ -897,7 +913,7 @@ h1, h2, h3, h4, h5, h6, a {
 }
 
 .service1 {
-  background: #E6E6E6;
+  background: #e6e6e6;
 }
 
 .service2 {
@@ -928,7 +944,7 @@ h1, h2, h3, h4, h5, h6, a {
 .service-item svg {
   width: 5rem;
   margin-right: 2rem;
-  padding: .5rem;
+  padding: 0.5rem;
 }
 
 .service-item h3 {
@@ -961,8 +977,8 @@ h1, h2, h3, h4, h5, h6, a {
 }
 
 .service-item:hover h3 {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), color-stop(50%, #CBF3F0));
-  background: linear-gradient(to bottom, transparent 50%, #CBF3F0 50%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), color-stop(50%, #cbf3f0));
+  background: linear-gradient(to bottom, transparent 50%, #cbf3f0 50%);
 }
 
 .service-item:hover svg {
@@ -1001,9 +1017,10 @@ h1, h2, h3, h4, h5, h6, a {
 }
 
 @media screen and (max-width: 767px) {
-  .service1, .service2 {
-    background: -webkit-gradient(linear, left top, right top, color-stop(50%, #E6E6E6), color-stop(50%, white));
-    background: linear-gradient(to right, #E6E6E6 50%, white 50%);
+  .service1,
+  .service2 {
+    background: -webkit-gradient(linear, left top, right top, color-stop(50%, #e6e6e6), color-stop(50%, white));
+    background: linear-gradient(to right, #e6e6e6 50%, white 50%);
   }
   .service2 {
     padding-top: 2rem;
@@ -1039,8 +1056,8 @@ h1, h2, h3, h4, h5, h6, a {
 }
 
 #contact .full {
-  background: -webkit-gradient(linear, left top, right top, color-stop(50%, white), color-stop(50%, #E6E6E6));
-  background: linear-gradient(to right, white 50%, #E6E6E6 50%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(50%, white), color-stop(50%, #e6e6e6));
+  background: linear-gradient(to right, white 50%, #e6e6e6 50%);
 }
 
 .title3 {
@@ -1066,7 +1083,8 @@ h1, h2, h3, h4, h5, h6, a {
   border-bottom: 1px solid #333333;
 }
 
-.contact-img, .contact {
+.contact-img,
+.contact {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1109,7 +1127,7 @@ h1, h2, h3, h4, h5, h6, a {
 }
 
 .contact-info a {
-  font-family: 'Quicksand';
+  font-family: "Quicksand";
   display: block;
   text-decoration: none;
   color: #333333;
@@ -1121,6 +1139,9 @@ h1, h2, h3, h4, h5, h6, a {
   padding: 1rem;
   border: 1px solid lightgrey;
   background: rgba(255, 255, 255, 0.9);
+  /* textarea{
+    height:4rem;
+  } */
 }
 
 .contact-form p {
@@ -1128,17 +1149,14 @@ h1, h2, h3, h4, h5, h6, a {
   margin-bottom: 0.5rem;
 }
 
-.contact-form input, .contact-form textarea {
-  font-family: 'Quicksand', sans-serif;
+.contact-form input,
+.contact-form textarea {
+  font-family: "Quicksand", sans-serif;
   width: 100%;
   margin-bottom: 0.5rem;
   -webkit-transition: 0.4s ease;
   transition: 0.4s ease;
   padding: 0.4rem;
-}
-
-.contact-form textarea {
-  height: 4rem;
 }
 
 .grecaptcha-badge {
@@ -1152,8 +1170,8 @@ h1, h2, h3, h4, h5, h6, a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background: -webkit-gradient(linear, left top, right top, color-stop(50%, #E6E6E6), color-stop(50%, white));
-  background: linear-gradient(to right, #E6E6E6 50%, white 50%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(50%, #e6e6e6), color-stop(50%, white));
+  background: linear-gradient(to right, #e6e6e6 50%, white 50%);
 }
 
 .footer div {
@@ -1194,8 +1212,8 @@ h1, h2, h3, h4, h5, h6, a {
 
 @media screen and (max-width: 767px) {
   #contact .full {
-    background: -webkit-gradient(linear, right top, left top, color-stop(50%, #E6E6E6), color-stop(50%, white));
-    background: linear-gradient(to left, #E6E6E6 50%, white 50%);
+    background: -webkit-gradient(linear, right top, left top, color-stop(50%, #e6e6e6), color-stop(50%, white));
+    background: linear-gradient(to left, #e6e6e6 50%, white 50%);
   }
   .contact-img {
     display: none;
@@ -1225,8 +1243,8 @@ h1, h2, h3, h4, h5, h6, a {
   padding: 1rem;
   height: calc(100% - 52px);
   width: 100%;
-  background: -webkit-gradient(linear, left top, right top, color-stop(50%, #E6E6E6), color-stop(50%, white));
-  background: linear-gradient(to right, #E6E6E6 50%, white 50%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(50%, #e6e6e6), color-stop(50%, white));
+  background: linear-gradient(to right, #e6e6e6 50%, white 50%);
 }
 
 .error p {
